@@ -44,13 +44,16 @@ extra:
 
 copyright: "Copyright 2024, 4admins"
 
-nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Guides:
-      - Installation: guides/installation.md
-      - Configuration: guides/configuration.md
-      - Usage: guides/usage.md
-  - API Reference: api.md
-  - FAQ: faq.md
-  - Contact: contact.md
+# nav:
+#   - Home: index.md
+#   - Getting Started: getting-started.md
+#   - Guides:
+#       - Installation: guides/installation.md
+#       - Configuration: guides/configuration.md
+#       - Usage: guides/usage.md
+#   - API Reference: api.md
+#   - FAQ: faq.md
+#   - Contact: contact.md
+
+plugins:
+  - optimize
