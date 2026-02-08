@@ -23,3 +23,15 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/4admins
+
+copyright: "Copyright 2024, 4admins"
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Guides:
+      - Installation: guides/installation.md
+      - Configuration: guides/configuration.md
+      - Usage: guides/usage.md
+  - API Reference: api.md
+  - FAQ: faq.md
+  - Contact: contact.md
