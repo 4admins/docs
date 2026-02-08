@@ -47,6 +47,3 @@ copyright: "Copyright 2024, 4admins"
 #   - API Reference: api.md
 #   - FAQ: faq.md
 #   - Contact: contact.md
-
-plugins:
-  - optimize
