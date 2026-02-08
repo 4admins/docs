@@ -19,12 +19,31 @@ theme:
       primary: blue
       accent: deep orange
 
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/4admins
 
 copyright: "Copyright 2024, 4admins"
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
