@@ -18,3 +18,8 @@ theme:
         name: Switch to dark mode
       primary: blue
       accent: deep orange
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/orgs/4admins
