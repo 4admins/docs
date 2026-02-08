@@ -1,0 +1,20 @@
+site_name: Docs 4admins
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Fira Mono
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: green
+      accent: light-green
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: deep orange
