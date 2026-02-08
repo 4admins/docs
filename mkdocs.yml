@@ -35,7 +35,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/4admins
 
-copyright: "Copyright 2024, 4admins"
+copyright: "Copyright 2026, 4admins"
+
+plugins:
+  - info
 
 # nav:
 #   - Home: index.md
