@@ -2,6 +2,7 @@ site_name: Docs 4admins
 theme:
   features:
     - content.code.select
+    - content.code.annotate
   name: material
   font:
     text: Merriweather Sans
