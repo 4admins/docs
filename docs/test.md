@@ -20,7 +20,7 @@ module "project_api_management" {
 }
 ```
 
-```hcl linenums=1
+```hcl
 module "project_api_management" {
   source         = "terraform-google-modules/project-factory/google//modules/project_services"
   version        = "~> 14.2"
