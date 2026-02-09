@@ -78,3 +78,24 @@ const result = concatenateStrings("Hello, ", "World!");
 console.log("The concatenated string is:", result);
 ```
 
+### Code Blocks in Content Tabs
+
+=== "Python"
+
+    ```py
+    def main():
+        print("Hello world!")
+
+    if __name__ == "__main__":
+        main()
+    ```
+
+=== "JavaScript"
+
+    ```js
+    function main() {
+        console.log("Hello world!");
+    }
+
+    main();
+    ```
