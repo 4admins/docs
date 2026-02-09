@@ -21,6 +21,19 @@ module "project_api_management" {
 }
 ```
 
+
+```py title="add_numbers.py" 
+# Function to add two numbers
+def add_two_numbers(num1, num2):
+    return num1 + num2
+
+# Example usage
+result = add_two_numbers(5, 3)
+print('The sum is:', result)
+```
+
+
+
 ``` tf title=example.tf"
 module "project_api_management" {
   source         = "terraform-google-modules/project-factory/google//modules/project_services"
