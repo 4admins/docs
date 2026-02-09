@@ -5,36 +5,6 @@ For full document
 ## Commands
 
 ```terraform title=example.tf"
-module "project_api_management" {
-  source         = "terraform-google-modules/project-factory/google//modules/project_services"
-  version        = "~> 14.2"
-  project_id     = var.project_id
-  activate_apis  = [
-    "artifactregistry.googleapis.com",
-    "compute.googleapis.com",
-    "dns.googleapis.com",
-    "secretmanager.googleapis.com",
-    "workflows.googleapis.com",
-    # ...
-  ]
-}
-```
-
-```tf
-module "project_api_management" {
-  source         = "terraform-google-modules/project-factory/google//modules/project_services"
-  version        = "~> 14.2"
-  project_id     = var.project_id
-  activate_apis  = [
-    "artifactregistry.googleapis.com",
-    "compute.googleapis.com",
-    "dns.googleapis.com",
-    "secretmanager.googleapis.com",
-    "workflows.googleapis.com",
-    # ...
-  ]
-}
-```
 
 ``` terraform
 module "project_api_management" {
@@ -52,7 +22,7 @@ module "project_api_management" {
 }
 ```
 
-``` tf
+``` tf title=example.tf"
 module "project_api_management" {
   source         = "terraform-google-modules/project-factory/google//modules/project_services"
   version        = "~> 14.2"
