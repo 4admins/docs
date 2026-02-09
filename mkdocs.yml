@@ -13,7 +13,7 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
       primary: green
-      accent: light-green
+      accent: deep purple
 
     - scheme: default
       toggle:
@@ -25,7 +25,6 @@ theme:
 
 
 markdown_extensions:
-  # - attri_list
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
