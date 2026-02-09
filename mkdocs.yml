@@ -38,7 +38,7 @@ extra:
 copyright: "Copyright 2026, 4admins"
 
 plugins:
-  - info
+  - search
 
 # nav:
 #   - Home: index.md
