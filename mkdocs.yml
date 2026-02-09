@@ -1,5 +1,7 @@
 site_name: Docs 4admins
 theme:
+  features:
+    - content.code.select
   name: material
   font:
     text: Merriweather Sans
@@ -22,7 +24,7 @@ theme:
 
 
 markdown_extensions:
-  - attri_list
+  # - attri_list
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
