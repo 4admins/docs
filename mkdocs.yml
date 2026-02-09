@@ -22,6 +22,10 @@ theme:
 
 
 markdown_extensions:
+  - attri_list
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
